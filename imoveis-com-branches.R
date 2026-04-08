@@ -1,9 +1,10 @@
 # 1. Leitura de banco de dados
 dados <- read.csv("imoveis - imoveis.csv", header=T, sep=",") 
 #2. Gráficos
+#Adicionado a branch gráficos
 hist(dados$metragem, 
-     main = "Distribuição da Metragem dos Imóveis", 
-     xlab = "Metragem (m²)", 
+     main = "Histograma de Metragem", 
+     xlab = "Metragem", 
      col = "orange")
 
 # 3. Medidas
